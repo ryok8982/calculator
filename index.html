@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>電卓</title>
+    </head>
+
+    <body>
+        <h3>calculator</h3>
+          <input type="text" id ="display">
+          <div>
+          <table>
+            <tr>
+              <td><input type="button" id="1" value ="1" onclick=mas(this);></td>
+              <td><input type="button" id="2" value ="2" onclick=mas(this);></td>
+              <td><input type="button" id="3" value ="3" onclick=mas(this);></td>
+              <td><input type="button" id="*" value ="*" onclick=mas(this);></td>
+            </tr>
+            <tr>
+              <td><input type="button" id="4" value ="4" onclick=mas(this)></td>
+              <td><input type="button" id="5" value ="5" onclick=mas(this)></td>
+              <td><input type="button" id="6" value ="6" onclick=mas(this)></td>
+              <td><input type="button" id="+" value ="+" onclick=mas(this)></td>
+            </tr>
+            <tr>
+              <td><input type="button" id="7" value ="7" onclick=mas(this)></td>
+              <td><input type="button" id="8" value ="8" onclick=mas(this)></td>
+              <td><input type="button" id="9" value ="9" onclick=mas(this)></td>
+              <td><input type="button" id="-" value ="-" onclick=mas(this)></td>
+            </tr>
+            <tr>
+              <td><input type="button" id="0" value ="0" onclick=mas(this)></td>
+              <td><input type="button" id="00" value ="00" onclick=mas(this)></td>
+              <td><input type="button" id="." value ="." onclick=mas(this)></td>
+              <td><input type="button" id="/" value ="/" onclick=mas(this)></td>
+            </tr>
+            <tr>
+              <td colspan="2" ><input type="button" id="AC" value ="AC" onclick=res()></td>
+              <td colspan="2"><input type="button" id="ii" value ="=" onclick=calc()></td>
+            </tr>
+          </table>
+          </div>
+        <!-- ここに記述していきましょう！ -->
+        
+        <script src="main.js"></script>
+    </body>
+</html>

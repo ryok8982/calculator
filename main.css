@@ -1,0 +1,22 @@
+*{
+  text-align:center;
+  margin:0 auto;
+}
+
+h3{
+  margin-top:100px;
+}
+table{
+  width:150px;
+  table-layout: fixed; 
+}
+
+#AC{
+  width:70px;
+}
+
+#ii{
+  width:70px;
+}
+
+
