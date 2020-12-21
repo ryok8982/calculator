@@ -5,7 +5,7 @@ function mas(elem){
 }
 
 function res(){
-  display.value = 0;
+  display.value = "";
 }
 
 function calc(){
